@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="jp.hnw.myreudokeyboard"
+    package="jp.hnw.rbk2000btii"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <!-- API level 16 is needed for KEYBOARD_LAYOUTS etc. -->
-    <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="19" />
 
     <!-- by default touchscreen is required by Android apps, we don't need one -->
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />

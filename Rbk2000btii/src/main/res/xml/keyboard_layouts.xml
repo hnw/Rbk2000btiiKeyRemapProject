@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <keyboard-layouts xmlns:android="http://schemas.android.com/apk/res/android">
      <keyboard-layout
-         android:name="keyboard_layout_english_rbk2000_hnw"
-         android:label="@string/keyboard_layout_english_rbk2000_hnw_label"
-         android:keyboardLayout="@raw/keyboard_layout_english_rbk2000_hnw" />
+         android:name="keyboard_layout_english_rbk2000btii"
+         android:label="@string/keyboard_layout_english_rbk2000btii_label"
+         android:keyboardLayout="@raw/keyboard_layout_english_rbk2000btii" />
 </keyboard-layouts>

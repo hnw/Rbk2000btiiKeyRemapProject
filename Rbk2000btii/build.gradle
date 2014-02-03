@@ -17,6 +17,7 @@ android {
     buildToolsVersion "19.0.0"
 
     defaultConfig {
+        // API level 16 is needed for KEYBOARD_LAYOUTS etc.
         minSdkVersion 16
         targetSdkVersion 19
     }
