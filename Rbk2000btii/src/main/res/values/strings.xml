@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyReudoKeyboard</string>
+    <string name="action_settings">Settings</string>
+    <string name="keyboard_layouts_label">hnw\'s layouts for REUDO RBK-2000BTII keyboard</string>
+    <string name="keyboard_layout_english_rbk2000_hnw_label">English (caps-&gt;ctrl, up&lt;-&gt;slash)</string>
+
+</resources>
