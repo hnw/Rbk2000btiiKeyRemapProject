@@ -13,14 +13,15 @@
 # limitations under the License.
 
 #
-# English (ctrl<->caps, up<->slash)
+# English (caps->ctrl, ctrl->IME on, up<->slash)
 
 type OVERLAY
 
 map key 58 CTRL_LEFT
-map key 29 CAPS_LOCK
+map key 29 GRAVE
 map key 103 SLASH
 map key 53 DPAD_UP
+map key 41 NUMPAD_LEFT_PAREN
 
 ### Basic QWERTY keys ###
 
@@ -320,4 +321,10 @@ key APOSTROPHE {
     label, number:                      '\''
     base:                               '\''
     shift:                              '"'
+}
+
+key NUMPAD_LEFT_PAREN {
+    label:                              '`'
+    base:                               '`'
+    shift:                              '~'
 }
