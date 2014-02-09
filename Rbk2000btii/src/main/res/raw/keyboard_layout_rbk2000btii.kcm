@@ -13,15 +13,19 @@
 # limitations under the License.
 
 #
-# English (caps->ctrl, ctrl->IME on, up<->slash)
+# English (caps->ctrl, Esc->iWnn on, up<->slash)
 
 type OVERLAY
 
 map key 58 CTRL_LEFT
-map key 29 GRAVE
+map key 1 GRAVE
 map key 103 SLASH
 map key 53 DPAD_UP
-map key 41 NUMPAD_LEFT_PAREN
+map key 41 YEN
+
+map key 29 BACK
+map key 125 HOME
+map key 100 MENU
 
 ### Basic QWERTY keys ###
 
@@ -323,7 +327,8 @@ key APOSTROPHE {
     shift:                              '"'
 }
 
-key NUMPAD_LEFT_PAREN {
+# Mapping grave key as dummy
+key YEN {
     label:                              '`'
     base:                               '`'
     shift:                              '~'
